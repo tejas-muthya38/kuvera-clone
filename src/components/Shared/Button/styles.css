@@ -1,0 +1,21 @@
+button {
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    height: 48px;
+    width: 106px;
+    border-radius: 24px;
+    box-shadow: 2px 4px 7px 0 rgba(0, 0, 0, .1019607843);
+}
+
+.btn-primary {
+    background-color: #03b9f5;
+    color: white;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: white;
+    border: 1px solid #03b9f5;
+    color: #03b9f5;
+}

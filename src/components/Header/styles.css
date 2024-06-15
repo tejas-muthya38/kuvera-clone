@@ -1,12 +1,14 @@
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    height: 90px;
 
     >div {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 32px;
     }
 
     ul {

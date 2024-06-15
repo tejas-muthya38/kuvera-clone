@@ -1,0 +1,16 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+    img {
+        height: 200px;
+    }
+
+    .btn-group {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+}
