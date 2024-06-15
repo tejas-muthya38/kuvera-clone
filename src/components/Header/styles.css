@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    >div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        li {
+            list-style-type: none;
+            color: #888e94;
+        }
+    }
+
+    .header-left {
+        img {
+            height: 18px;
+        }
+
+        ul {
+            gap: 32px;
+        }
+    }
+}
