@@ -1,0 +1,29 @@
+.bottom-cta {
+    margin: 64px auto;
+    background-color: #f0f5fa;
+    padding: 48px 0;
+}
+
+.bottom-cta-body {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 64px;
+
+    p {
+        margin: 16px 0;
+        font-size: 14px;
+    }
+
+    button {
+        width: 160px;
+        height: 40px;
+        margin-top: 8px;
+    }
+
+    img {
+        width: 400px;
+    }
+}

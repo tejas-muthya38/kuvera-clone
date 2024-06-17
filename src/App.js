@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/Banner";
+import BottomCTA from "./components/BottomCTA";
 import CTABanner from "./components/CTABanner";
 import Features from "./components/Features";
 import FundHouses from "./components/FundHouses";
@@ -27,6 +28,7 @@ function App() {
       <Banner />
       <FundHouses />
       <Testimonials />
+      <BottomCTA />
     </div>
   );
 }
