@@ -71,8 +71,15 @@
 
     }
 
-    span.footer {
+    span.save-smart-footer {
         font-size: 14px;
         color: #c0c6cc;
     }
+}
+
+a.explore-more {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    margin-top: 48px;
 }

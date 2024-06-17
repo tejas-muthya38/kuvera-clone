@@ -3,7 +3,7 @@ import "./styles.css";
 import SaveSmart from "./save-smart";
 import { mutualFunds, stocks } from "../../constants";
 
-export default function HeroTabs() {
+export default function HeroTabs({ callback }) {
   const [tabIndex, setTabIndex] = useState(0);
   const tab = tabIndex === 0 ? mutualFunds : stocks;
   return (
@@ -11,19 +11,28 @@ export default function HeroTabs() {
       <ul>
         <li
           className={`${tabIndex === 0 ? "active" : ""}`}
-          onClick={() => setTabIndex(0)}
+          onClick={() => {
+            setTabIndex(0);
+            callback(0);
+          }}
         >
           Mutual Funds
         </li>
         <li
           className={`${tabIndex === 1 ? "active" : ""}`}
-          onClick={() => setTabIndex(1)}
+          onClick={() => {
+            setTabIndex(1);
+            callback(1);
+          }}
         >
           Stocks
         </li>
         <li
           className={`${tabIndex === 2 ? "active" : ""}`}
-          onClick={() => setTabIndex(2)}
+          onClick={() => {
+            setTabIndex(2);
+            callback(2);
+          }}
         >
           SaveSmart
         </li>
@@ -61,6 +70,9 @@ export default function HeroTabs() {
       ) : (
         <SaveSmart />
       )}
+      <a className="explore-more" href="/">
+        Explore more &gt;
+      </a>
     </div>
   );
 }

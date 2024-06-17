@@ -8,7 +8,9 @@ export default function SaveSmart() {
         <span>₹</span>
         <input type="text" placeholder="0" />
       </div>
-      <span className="footer">(Minimum amount you can save is ₹ 5000)</span>
+      <span className="save-smart-footer">
+        (Minimum amount you can save is ₹ 5000)
+      </span>
     </div>
   );
 }

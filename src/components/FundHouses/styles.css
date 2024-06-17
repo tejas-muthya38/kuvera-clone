@@ -4,9 +4,17 @@
     grid-template-columns: 35% 65%;
     gap: 64px;
 
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+
     .fundhouses-hero {
         img {
             width: 372px;
+
+            @media screen and (max-width: 768px) {
+                width: 240px;
+            }
         }
 
         h1 {
@@ -23,7 +31,6 @@
 
         a {
             font-size: 14px;
-            width: 280px;
             font-weight: 500;
         }
     }

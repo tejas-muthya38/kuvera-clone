@@ -1,5 +1,5 @@
 .bottom-cta {
-    margin: 64px auto;
+    margin: 64px auto 0;
     background-color: #f0f5fa;
     padding: 48px 0;
 }
@@ -25,5 +25,15 @@
 
     img {
         width: 400px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 90%;
+        flex-direction: column;
+        gap: 32px;
+
+        img {
+            width: 200px;
+        }
     }
 }

@@ -1,15 +1,14 @@
 import Button from "../Shared/Button";
 import "./styles.css";
+import { heroVariants } from "../../constants";
 
-export default function Hero() {
+export default function Hero({ tabIndex }) {
+  const hero = heroVariants[tabIndex];
   return (
     <div className="hero">
-      <img
-        src="https://assets2.kuvera.in/production/babylon/1.0.26/assets/img/home/intro-ill.svg"
-        alt="Two investors meet"
-      />
-      <h1>Online investing in India simplified - Kuvera</h1>
-      <p>Zero fee. Higher return.</p>
+      <img src={hero.image} alt="Two investors meet" />
+      <h1>{hero.title}</h1>
+      <p>{hero.description}</p>
       <div className="btn-group">
         <Button innerText="Log in" variant="primary" />
         <Button innerText="Sign up" variant="secondary" />

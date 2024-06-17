@@ -373,3 +373,119 @@ export const testimonials = [
     endpoint: "/",
   },
 ];
+
+export const footerCategories = [
+  {
+    title: "About Us",
+    links: [
+      {
+        title: "The Team",
+        endpoint: "/",
+      },
+      {
+        title: "Why Kuvera",
+        endpoint: "/",
+      },
+      {
+        title: "Press",
+        endpoint: "/",
+      },
+      {
+        title: "Terms & Conditions",
+        endpoint: "/",
+      },
+      {
+        title: "Privacy Policy",
+        endpoint: "/",
+      },
+      {
+        title: "Regulatory Disclosure",
+        endpoint: "/",
+      },
+    ],
+  },
+  {
+    title: "Investing",
+    links: [
+      {
+        title: "Switch to Direct Funds",
+        endpoint: "/",
+      },
+      {
+        title: "Save taxes",
+        endpoint: "/",
+      },
+      {
+        title: "Set a goal",
+        endpoint: "/",
+      },
+      {
+        title: "Explore funds",
+        endpoint: "/",
+      },
+    ],
+  },
+  {
+    title: "Top fund houses",
+    links: [
+      {
+        title: "Axis Mutual Funds",
+        endpoint: "/",
+      },
+      {
+        title: "SBI Mutual Funds",
+        endpoint: "/",
+      },
+      {
+        title: "Nippon Mutual Funds",
+        endpoint: "/",
+      },
+      {
+        title: "ICICI Mutual Funds",
+        endpoint: "/",
+      },
+    ],
+  },
+  {
+    title: "Learn more",
+    links: [
+      {
+        title: "Blog",
+        endpoint: "/",
+      },
+      {
+        title: "Tax",
+        endpoint: "/",
+      },
+      {
+        title: "Retirement",
+        endpoint: "/",
+      },
+      {
+        title: "Sitemap",
+        endpoint: "/",
+      },
+    ],
+  },
+];
+
+export const heroVariants = [
+  {
+    image:
+      "https://assets2.kuvera.in/production/babylon/1.0.26/assets/img/home/intro-ill.svg",
+    title: "Online investing in India simplified - Kuvera",
+    description: "Zero fee. Higher return.",
+  },
+  {
+    image:
+      "https://assets2.kuvera.in/production/babylon/1.0.26/assets/img/home/stocks-ill.svg",
+    title: "Invest and track stocks",
+    description: "Powered by smallcase",
+  },
+  {
+    image:
+      "https://assets2.kuvera.in/production/babylon/1.0.26/assets/img/home/save-smart-widget-content.svg",
+    title: "Deposits simplified",
+    description: "High return. Instant liquidity.",
+  },
+];
