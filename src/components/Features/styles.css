@@ -1,0 +1,40 @@
+.features {
+    h1 {
+        font-size: 28px;
+        margin-bottom: 32px;
+        margin-top: 4px;
+    }
+
+    .features-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+
+        .feature-data {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            align-items: flex-start;
+            background-color: #d5eaff73;
+            padding: 24px;
+            width: 30%;
+            border-radius: 8px;
+            height: 400px;
+
+            a {
+                text-decoration: none;
+                color: #00bfff;
+            }
+
+            button {
+                width: 160px;
+            }
+
+            img {
+                width: 120px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
