@@ -1,0 +1,78 @@
+.hero-tabs {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 32px;
+
+        li {
+            list-style-type: none;
+            padding-bottom: 8px;
+            cursor: pointer;
+
+            &.active {
+                border-bottom: 2px solid #00bfff;
+            }
+        }
+    }
+
+    .unit-data {
+        >p {
+            margin-bottom: 16px;
+            color: #00bfff;
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        .unit-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+
+                span {
+                    font-size: 14px;
+                    color: #707780;
+                }
+            }
+        }
+    }
+}
+
+.save-smart {
+    height: 300px;
+
+    div.input-group {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        margin-bottom: 16px;
+
+        span {
+            color: #c0c6cc;
+            font-size: 24px;
+        }
+
+        input {
+            border: none;
+            outline: none;
+            font-size: 32px;
+        }
+    }
+
+    p {
+        font-weight: 500;
+        margin-bottom: 32px;
+
+    }
+
+    span.footer {
+        font-size: 14px;
+        color: #c0c6cc;
+    }
+}

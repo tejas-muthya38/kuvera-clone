@@ -11,4 +11,14 @@
     margin: auto;
     font-family: "Rubik", sans-serif;
     padding: 24px 0;
+
+    .hero-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        >* {
+            width: 35%;
+        }
+    }
 }
