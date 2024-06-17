@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kuvera-clone/static/css/main.6e8a5a5e.css",
+    "main.js": "/kuvera-clone/static/js/main.7ad4c0c8.js",
+    "index.html": "/kuvera-clone/index.html",
+    "main.6e8a5a5e.css.map": "/kuvera-clone/static/css/main.6e8a5a5e.css.map",
+    "main.7ad4c0c8.js.map": "/kuvera-clone/static/js/main.7ad4c0c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e8a5a5e.css",
+    "static/js/main.7ad4c0c8.js"
+  ]
+}
