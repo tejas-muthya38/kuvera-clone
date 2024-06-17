@@ -4,6 +4,7 @@ import Features from "./components/Features";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import HeroTabs from "./components/HeroTabs";
+import Support from "./components/Support";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       </div>
       <CTABanner />
       <Features />
+      <Support />
     </div>
   );
 }

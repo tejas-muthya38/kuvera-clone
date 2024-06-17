@@ -102,3 +102,18 @@ export const features = [
     buttonText: "Switch Today",
   },
 ];
+
+export const support = [
+  {
+    title: "Oct 2017",
+    description: "We pioneered commission free Direct Plan investing.",
+  },
+  {
+    title: "Super support",
+    description: "Handled by a caring team on chat, email and tweet!",
+  },
+  {
+    title: "Stop paying commission",
+    description: "Switch to a commission free Direct Plans on Kuvera.",
+  },
+];

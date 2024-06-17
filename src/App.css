@@ -7,9 +7,14 @@
 }
 
 .App {
-    width: 70%;
+    >*:not(.support) {
+        width: 70%;
+        margin: auto;
+    }
+
     margin: auto;
-    font-family: "Rubik", sans-serif;
+    font-family: "Rubik",
+    sans-serif;
     padding: 24px 0;
 
     .hero-section {
