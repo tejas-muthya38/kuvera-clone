@@ -144,3 +144,190 @@ export const whyKuvera = [
       "We are registered with the Securities and Exchange Board of India (SEBI) as an Investment Advisor (INA200005166)",
   },
 ];
+
+export const fundHouses = [
+  {
+    name: "360 ONE",
+    endpoint: "/",
+  },
+  {
+    name: "LIC",
+    endpoint: "/",
+  },
+  {
+    name: "ADITYA BIRLA SUNLIFE",
+    endpoint: "/",
+  },
+  {
+    name: "MAHINDRA",
+    endpoint: "/",
+  },
+  {
+    name: "AXIS",
+    endpoint: "/",
+  },
+  {
+    name: "MIRAE ASSET",
+    endpoint: "/",
+  },
+  {
+    name: "BAJAJ FINSERVE ASSET MANAGEMENT",
+    endpoint: "/",
+  },
+  {
+    name: "MOTILAL OSWAL",
+    endpoint: "/",
+  },
+  {
+    name: "BANDHAN",
+    endpoint: "/",
+  },
+  {
+    name: "NAVI",
+    endpoint: "/",
+  },
+  {
+    name: "BANK OF INDIA",
+    endpoint: "/",
+  },
+  {
+    name: "NIPPON INDIA",
+    endpoint: "/",
+  },
+  {
+    name: "BARODA BNP PARIBAS",
+    endpoint: "/",
+  },
+  {
+    name: "NJ",
+    endpoint: "/",
+  },
+  {
+    name: "CANARA ROBECO",
+    endpoint: "/",
+  },
+  {
+    name: "OLD BRIDGE",
+    endpoint: "/",
+  },
+  {
+    name: "DSP",
+    endpoint: "/",
+  },
+  {
+    name: "PGIM INDIA",
+    endpoint: "/",
+  },
+  {
+    name: "EDELWEISS",
+    endpoint: "/",
+  },
+  {
+    name: "PPFAS",
+    endpoint: "/",
+  },
+  {
+    name: "FRANKLIN TEMPLETON",
+    endpoint: "/",
+  },
+  {
+    name: "QUANT",
+    endpoint: "/",
+  },
+  {
+    name: "GROWW",
+    endpoint: "/",
+  },
+  {
+    name: "QUANTUM",
+    endpoint: "/",
+  },
+  {
+    name: "HDFC",
+    endpoint: "/",
+  },
+  {
+    name: "SAMCO",
+    endpoint: "/",
+  },
+  {
+    name: "HELIOS",
+    endpoint: "/",
+  },
+  {
+    name: "SBI",
+    endpoint: "/",
+  },
+  {
+    name: "HSBC",
+    endpoint: "/",
+  },
+  {
+    name: "SHRIRAM",
+    endpoint: "/",
+  },
+  {
+    name: "ICICI PRUDENTIAL",
+    endpoint: "/",
+  },
+  {
+    name: "SUNDARAM",
+    endpoint: "/",
+  },
+  {
+    name: "IDBI",
+    endpoint: "/",
+  },
+  {
+    name: "TATA",
+    endpoint: "/",
+  },
+  {
+    name: "INDIA BULLS",
+    endpoint: "/",
+  },
+  {
+    name: "TAURUS",
+    endpoint: "/",
+  },
+  {
+    name: "INVESCO",
+    endpoint: "/",
+  },
+  {
+    name: "TRUST",
+    endpoint: "/",
+  },
+  {
+    name: "ITI",
+    endpoint: "/",
+  },
+  {
+    name: "UNION",
+    endpoint: "/",
+  },
+  {
+    name: "JM FINANCIAL",
+    endpoint: "/",
+  },
+  {
+    name: "UTI",
+    endpoint: "/",
+  },
+  {
+    name: "KOTAK",
+    endpoint: "/",
+  },
+  {
+    name: "WHITEOAK CAPITAL",
+    endpoint: "/",
+  },
+  {
+    name: "L&T",
+    endpoint: "/",
+  },
+  {
+    name: "ZERODHA",
+    endpoint: "/",
+  },
+];

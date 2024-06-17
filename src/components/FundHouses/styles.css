@@ -1,0 +1,30 @@
+.fundhouses {
+    margin: 64px auto !important;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 64px;
+
+    .fundhouses-hero {
+        img {
+            width: 372px;
+        }
+
+        h1 {
+            margin: 12px 0 32px 0;
+        }
+    }
+
+    .fundhouses-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 12px;
+        justify-content: space-between;
+        width: 100%;
+
+        a {
+            font-size: 14px;
+            width: 280px;
+            font-weight: 500;
+        }
+    }
+}

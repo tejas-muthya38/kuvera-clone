@@ -2,6 +2,7 @@ import "./App.css";
 import Banner from "./components/Banner";
 import CTABanner from "./components/CTABanner";
 import Features from "./components/Features";
+import FundHouses from "./components/FundHouses";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import HeroTabs from "./components/HeroTabs";
@@ -23,6 +24,7 @@ function App() {
       <WeCare />
       <WhyKuvera />
       <Banner />
+      <FundHouses />
     </div>
   );
 }
