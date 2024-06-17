@@ -24,7 +24,10 @@
             padding: 24px;
             width: 30%;
             border-radius: 8px;
-            height: 400px;
+
+            p {
+                height: 80px;
+            }
 
             a {
                 text-decoration: none;

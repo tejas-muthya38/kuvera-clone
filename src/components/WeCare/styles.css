@@ -1,0 +1,14 @@
+div.we-care {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+    h3 {
+        font-size: 21px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #0bbbff;
+    }
+}
