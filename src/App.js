@@ -1,4 +1,5 @@
 import "./App.css";
+import Banner from "./components/Banner";
 import CTABanner from "./components/CTABanner";
 import Features from "./components/Features";
 import Header from "./components/Header";
@@ -21,6 +22,7 @@ function App() {
       <Support />
       <WeCare />
       <WhyKuvera />
+      <Banner />
     </div>
   );
 }

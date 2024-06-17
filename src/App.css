@@ -7,7 +7,7 @@
 }
 
 .App {
-    >*:not(.support) {
+    >*:not(.support, .banner) {
         width: 70%;
         margin: auto;
     }
