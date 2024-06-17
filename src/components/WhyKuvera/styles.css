@@ -1,0 +1,48 @@
+.why-kuvera {
+    margin: 64px auto !important;
+
+    img {
+        width: 400px;
+    }
+
+    >p {
+        font-size: 18px;
+    }
+
+    >h1 {
+        margin-bottom: 32px;
+        margin-top: 16px;
+    }
+
+    button {
+        width: 160px;
+        height: 48px;
+        margin-top: 32px;
+    }
+
+    .why-kuvera-hero {
+        display: flex;
+        gap: 16px;
+        align-items: flex-end;
+
+        .why-kuvera-info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 32px;
+            gap: 16px;
+
+            a {
+                font-size: 14px;
+            }
+
+            p {
+                margin: 12px 0 8px 0;
+                font-size: 14px;
+            }
+
+            div {
+                padding: 12px 12px 12px 0;
+            }
+        }
+    }
+}

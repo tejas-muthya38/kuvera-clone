@@ -26,4 +26,21 @@
             width: 35%;
         }
     }
+
+    p {
+        line-height: 21px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 21px
+    }
+
+    a {
+        color: #0bbfff;
+        text-decoration: none;
+    }
 }

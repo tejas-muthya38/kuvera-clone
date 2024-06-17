@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import HeroTabs from "./components/HeroTabs";
 import Support from "./components/Support";
 import WeCare from "./components/WeCare";
+import WhyKuvera from "./components/WhyKuvera";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Features />
       <Support />
       <WeCare />
+      <WhyKuvera />
     </div>
   );
 }

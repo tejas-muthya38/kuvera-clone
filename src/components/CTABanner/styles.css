@@ -14,10 +14,6 @@
     p {
         font-size: 16px;
     }
-
-    h1 {
-        font-size: 28px;
-    }
 }
 
 .cta-banner-left {
@@ -41,5 +37,5 @@
 }
 
 .cta-banner {
-    margin: 64px 0;
+    margin: 64px auto !important;
 }

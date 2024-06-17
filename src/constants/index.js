@@ -117,3 +117,30 @@ export const support = [
     description: "Switch to a commission free Direct Plans on Kuvera.",
   },
 ];
+
+export const whyKuvera = [
+  {
+    title: "Expert team",
+    description:
+      "We are data driven ex-money managers & technologists. We know how to make financial management easy.",
+    anchor: {
+      text: "More about our team",
+      endpoint: "/",
+    },
+  },
+  {
+    title: "Only direct plans",
+    description:
+      "We offer Direct Plans. So you never pay the commissions (up to 1.5%) that you would in a Regular Plan. That adds up, up to 35% more in just 20 years!",
+  },
+  {
+    title: "Bank level security",
+    description:
+      "We employ the latest security protocols & partner with reputable institutions to keep your money safe.",
+  },
+  {
+    title: "SEBI registered",
+    description:
+      "We are registered with the Securities and Exchange Board of India (SEBI) as an Investment Advisor (INA200005166)",
+  },
+];
