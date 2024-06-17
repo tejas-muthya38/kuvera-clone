@@ -331,3 +331,45 @@ export const fundHouses = [
     endpoint: "/",
   },
 ];
+
+export const testimonials = [
+  {
+    author: {
+      image:
+        "https://assets2.kuvera.in/production/babylon/1.0.26/assets/img/kuverians/krati_golash.png",
+      name: "Krati Golash",
+      profession: "IT Marketer",
+      age: "28",
+      from: "Madhya Pradesh",
+    },
+    description:
+      "This platform is super easy to use & navigate and provides just the information you need!",
+    endpoint: "/",
+  },
+  {
+    author: {
+      image:
+        "https://assets2.kuvera.in/production/babylon/1.0.26/assets/img/kuverians/harshil_gandhakwala.png",
+      name: "Harshil Gandhakwala",
+      profession: "PSU Banker",
+      age: "28",
+      from: "Ahmedabad",
+    },
+    description:
+      "I found Kuvera when I searched for the best online platform to invest in Mutual Funds",
+    endpoint: "/",
+  },
+  {
+    author: {
+      image:
+        "https://assets2.kuvera.in/production/babylon/1.0.26/assets/img/kuverians/aniket_jha.png",
+      name: "Aniket Jha",
+      profession: "NGO",
+      age: "31",
+      from: "Bangalore",
+    },
+    description:
+      "Each time I get a notification email stating that a certain feature has been added, I have just two words - oh wow!",
+    endpoint: "/",
+  },
+];
